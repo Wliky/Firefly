@@ -32,6 +32,16 @@ export const friendsConfig: FriendLink[] = [
     weight: 8,
     enabled: true,
   },
+    {
+        title: "LINUX DO",
+        imgurl:
+            "https://icon.ooo/linux.do",
+        desc: "真诚、友善、团结、专业，共建你我引以为荣之社区。",
+        siteurl: "https://linux.do/",
+        tags: ["Blog"],
+        weight: 6, // 权重，数字越大排序越靠前
+        enabled: true, // 是否启用
+    },
 ];
 
 // 获取启用的友链并按权重排序
