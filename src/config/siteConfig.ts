@@ -32,7 +32,7 @@ export const siteConfig: SiteConfig = {
   favicon: [
     // 留空以使用默认 favicon
     {
-      src: "/docs/images/head/head.jpg", // 图标文件路径
+      src: "https://github.com/Wliky/Firefly/blob/main/docs/images/head/head.jpg?raw=true", // 图标文件路径
       theme: "light", // 可选，指定主题 'light' | 'dark'
       sizes: "32x32", // 可选，图标大小
     },
@@ -45,7 +45,7 @@ export const siteConfig: SiteConfig = {
   // { type: "image", value: "https://example.com/logo.png", alt: "Firefly Logo" }
   navbarLogo: {
     type: "image",
-    value: "/docs/images/head/head.jpg",
+    value: "https://github.com/Wliky/Firefly/blob/main/docs/images/head/head.jpg?raw=true",
     alt: "🍀",
   },
   navbarTitle: "Wliky", // 导航栏标题，可以设置为与 title 不同的值，如果不设置则使用 title
