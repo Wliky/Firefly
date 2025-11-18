@@ -22,7 +22,7 @@ export const coverImageConfig: CoverImageConfig = {
     "https://t.alcy.cc/ai",
   ],
   // 备用图片路径
-  fallback: "/assets/images/cover.webp",
+  fallback: "https://t.alcy.cc/fj",
 
   /**
    * 加载指示器配置

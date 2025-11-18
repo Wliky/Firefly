@@ -1,12 +1,11 @@
 ---
 title: Markdown 教程
-published: 1970-01-01
+published: 2025-01-01
 pinned: false
-description: 一个简明的 Markdown 博客示例。
-tags: [文章示例]
-category: 文章示例
-licenseName: "未授权"
-author: emn178
+description: 一个简明的 Markdown 博客示例教程。
+tags: [Markdown]
+category: 教程
+author: Firefly
 sourceLink: "https://github.com/emn178/markdown"
 draft: false
 
@@ -412,8 +411,8 @@ HTML 标签：`<ol>`
 ---
 
 - A
-  - A1
-  - A2
+    - A1
+    - A2
 - B
 - C
 
