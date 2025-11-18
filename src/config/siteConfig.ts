@@ -119,8 +119,8 @@ export const siteConfig: SiteConfig = {
         title: "Wliky'blog!",
         // 主页横幅副标题
         subtitle: [
-          "不来亦不去",
-          "生以悦己 非困于人",
+          "Neither coming nor going",
+          "Live to please yourself  not to be troubled by others",
         ],
         typewriter: {
           enable: true, // 启用副标题打字机效果
