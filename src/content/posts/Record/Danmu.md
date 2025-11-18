@@ -6,7 +6,7 @@ description: 一个人人都能部署的基于 js 的弹幕 API 服务器,附Clo
 tags: [Vercel,CloudFlare, dangmu]
 category: 教程
 author: Wliky
-draft: true
+draft: false
 ---
 # 什么是danmu_api
 ::github{repo="huangxd-/danmu_api"}
