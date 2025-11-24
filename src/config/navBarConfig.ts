@@ -21,31 +21,31 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
         icon: "fa6-brands:github",
       },
         {
-            name: "openlist",
+            name: "OpenList",
             url: "https://list.005201.xyz",
             external: true,
-            icon: "fa6-brands:cloud",
+            icon: "fa6-solid:list",
         },
 
         {
             name: "CloudPaste",
             url: "https://clip.005201.xyz",
             external: true,
-            icon: "fa6-brands:clipboard",
+            icon: "fa6-solid:clipboard",
         },
 
         {
-            name: "it-tools",
+            name: "It-Tools",
             url: "https://it.005201.xyz",
             external: true,
-            icon: "fa6-brands:inbox",
+            icon: "fa6-solid:toolbox",
         },
 
         {
-            name: "pansou",
+            name: "PanSou",
             url: "https://so.005201.xyz",
             external: true,
-            icon: "fa6-brands:search",
+            icon: "fa6-solid:magnifying-glass-arrow-right",
         },
     ],
   });
