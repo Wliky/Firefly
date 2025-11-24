@@ -20,6 +20,33 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
         external: true,
         icon: "fa6-brands:github",
       },
+        {
+            name: "openlist",
+            url: "https://list.005201.xyz",
+            external: true,
+            icon: "fa6-brands:cloud",
+        },
+
+        {
+            name: "CloudPaste",
+            url: "https://clip.005201.xyz",
+            external: true,
+            icon: "fa6-brands:clipboard",
+        },
+
+        {
+            name: "it-tools",
+            url: "https://it.005201.xyz",
+            external: true,
+            icon: "fa6-brands:inbox",
+        },
+
+        {
+            name: "pansou",
+            url: "https://so.005201.xyz",
+            external: true,
+            icon: "fa6-brands:search",
+        },
     ],
   });
 
