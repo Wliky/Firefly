@@ -6,8 +6,8 @@ import { fontConfig } from "./fontConfig";
 const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
-  title: "Wliky'blog",
-  subtitle: "Firefly",
+  title: "Wliky'Blog",
+  subtitle: "",
   site_url: "https://005201.xyz",
   description:
     "Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板。",
@@ -64,23 +64,19 @@ export const siteConfig: SiteConfig = {
   // OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
   generateOgImages: false,
 
-  // 页面开关配置 - 控制特定页面的访问权限，设为false会返回404
-
-  // anime和bangumi都是来源bangumi的数据，请配置bangumi.userId
-  // anime是动态请求获取数据，所以是实时数据，目前缺点是需要手动F5刷新一次才加载数据
-  // bangumi的数据为编译时获取的，所以不是实时数据
-  pages: {
-    anime: false, // 追番页面开关
-    sponsor: false, // 赞助页面开关
-    guestbook: true, // 留言板页面开关，需要配置评论系统
-    bangumi: true, // 番组计划页面开关，含追番和游戏
-  },
+    // 页面开关配置 - 控制特定页面的访问权限，设为false会返回404
+    // bangumi的数据为编译时获取的，所以不是实时数据，请配置bangumi.userId
+    pages: {
+        sponsor: true, // 赞助页面开关
+        guestbook: false, // 留言板页面开关，需要配置评论系统
+        bangumi: true, // 番组计划页面开关，含追番和游戏，dev调试时只获取一页数据，build才会获取全部数据
+    },
 
   // 文章列表布局配置
   postListLayout: {
     // 默认布局模式："list" 列表模式（单列布局），"grid" 网格模式（双列布局）
     // 如果sidebarConfig.ts中侧边栏配置启用了"both"双侧边栏，则无法使用文章列表"grid"网格（双列）布局
-    defaultMode: "grid",
+    defaultMode: "list",
     // 是否允许用户切换布局
     allowSwitch: true,
   },
@@ -108,10 +104,10 @@ export const siteConfig: SiteConfig = {
     // Banner模式特有配置
     banner: {
       // 图片位置
-      // 支持所有CSS object-position值，如: 'top', 'center', 'bottom', 'left top', 'right bottom', '25% 75%', '10px 20px'..
+      // 支持所有CSS object-position值，如: 'top', 'center', 'bottom', 'left top', 'right bottom', '25% 75%', '10px 20px'
       // 如果不知道怎么配置百分百之类的配置，推荐直接使用：'center'居中，'top'顶部居中，'bottom' 底部居中，'left'左侧居中，'right'右侧居中
       position: "0% 20%",
-      
+
       homeText: {
         // 主页显示自定义文本（全局开关）
         enable: true,
@@ -171,15 +167,6 @@ export const siteConfig: SiteConfig = {
       opacity: 0.8, // 壁纸透明度
       blur: 1, // 背景模糊程度
     },
-  },
-
-  // 目录功能
-  toc: {
-    // 目录功能开关
-    enable: true,
-    // 目录深度，1-3，1 表示只显示 h1 标题，2 表示显示 h1 和 h2 标题，依此类推
-    // depth在新版已弃用
-    depth: 3,
   },
 
   // 字体配置
