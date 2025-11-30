@@ -1,20 +1,19 @@
 import type { ProfileConfig } from "../types/config";
 
 export const profileConfig: ProfileConfig = {
-  avatar: "https://avatars.githubusercontent.com/u/63444769?v=4",
-  name: "Wliky",
-  bio: "Hello, I'm Wliky.",
-  links: [
-      //个人网站
-      {
-          name: "Website",
-          icon: "fa6-solid:globe",
-          url: "https://005201.xyz",
-      },
-    {
-      name: "GitHub",
-      icon: "fa6-brands:github",
-      url: "https://github.com/Wliky",
-    },
-  ],
+	avatar: "/assets/images/avatar.webp",
+	name: "Firefly",
+	bio: "Hello, I'm Firefly.",
+	links: [
+		{
+			name: "Bilibli",
+			icon: "fa6-brands:bilibili",
+			url: "https://space.bilibili.com/38932988",
+		},
+		{
+			name: "GitHub",
+			icon: "fa6-brands:github",
+			url: "https://github.com/CuteLeaf",
+		},
+	],
 };
