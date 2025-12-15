@@ -1,5 +1,6 @@
 import type { CommentConfig } from "../types/config";
 
+// @ts-ignore
 export const commentConfig: CommentConfig = {
   // 评论系统类型: none, twikoo, waline, giscus, disqus, artalk，默认为none，即不启用评论系统
   type: "none",
@@ -40,7 +41,7 @@ export const commentConfig: CommentConfig = {
     reactionsEnabled: "1", // 设置 Giscus 评论系统反应功能
     emitMetadata: "1", // 设置 Giscus 评论系统元数据
     inputPosition: "top", // 设置 Giscus 评论系统输入位置
-    theme: "light", // 设置 Giscus 评论系统主题
+    // theme: "light", // 设置 Giscus 评论系统主题
     lang: "zh-CN", // 设置 Giscus 评论系统语言
     loading: "lazy", // 设置 Giscus 评论系统加载方式
   },
