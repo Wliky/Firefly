@@ -63,11 +63,17 @@ export const zh_TW: Translation = {
 	[Key.bangumiFilterWish]: "想看",
 	[Key.bangumiFilterOnHold]: "擱置",
 	[Key.bangumiFilterDropped]: "拋棄",
+	[Key.bangumiFilterGamePlayed]: "玩過",
+	[Key.bangumiFilterGamePlaying]: "在玩",
+	[Key.bangumiFilterGameWish]: "想玩",
 	[Key.bangumiStatusWish]: "想看",
 	[Key.bangumiStatusWatched]: "看過",
 	[Key.bangumiStatusWatching]: "在看",
 	[Key.bangumiStatusOnHold]: "擱置",
 	[Key.bangumiStatusDropped]: "拋棄",
+	[Key.bangumiStatusGameWish]: "想玩",
+	[Key.bangumiStatusGamePlayed]: "玩過",
+	[Key.bangumiStatusGamePlaying]: "在玩",
 	[Key.bangumiStatusUnknown]: "未知",
 	[Key.bangumiNoData]: "暫無數據",
 	[Key.bangumiNoDataDescription]: "該分類下還沒有任何條目",
@@ -151,7 +157,7 @@ export const zh_TW: Translation = {
 	// 壁紙模式
 	[Key.wallpaperMode]: "壁紙模式",
 	[Key.wallpaperBannerMode]: "橫幅壁紙",
-	[Key.wallpaperOverlayMode]: "全屏壁紙",
+	[Key.wallpaperOverlayMode]: "全屏透明",
 	[Key.wallpaperNoneMode]: "純色背景",
 
 	// 贊助頁面

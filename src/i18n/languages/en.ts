@@ -63,11 +63,17 @@ export const en: Translation = {
 	[Key.bangumiFilterWish]: "Wish",
 	[Key.bangumiFilterOnHold]: "On Hold",
 	[Key.bangumiFilterDropped]: "Dropped",
+	[Key.bangumiFilterGamePlayed]: "Played",
+	[Key.bangumiFilterGamePlaying]: "Playing",
+	[Key.bangumiFilterGameWish]: "Wish to Play",
 	[Key.bangumiStatusWish]: "Wish",
 	[Key.bangumiStatusWatched]: "Watched",
 	[Key.bangumiStatusWatching]: "Watching",
 	[Key.bangumiStatusOnHold]: "On Hold",
 	[Key.bangumiStatusDropped]: "Dropped",
+	[Key.bangumiStatusGameWish]: "Wish to Play",
+	[Key.bangumiStatusGamePlayed]: "Played",
+	[Key.bangumiStatusGamePlaying]: "Playing",
 	[Key.bangumiStatusUnknown]: "Unknown",
 	[Key.bangumiNoData]: "No Data",
 	[Key.bangumiNoDataDescription]: "No items in this category",
@@ -157,7 +163,7 @@ export const en: Translation = {
 	// Wallpaper Mode
 	[Key.wallpaperMode]: "Wallpaper Mode",
 	[Key.wallpaperBannerMode]: "Banner Wallpaper",
-	[Key.wallpaperOverlayMode]: "Full Screen Wallpaper",
+	[Key.wallpaperOverlayMode]: "Transparent",
 	[Key.wallpaperNoneMode]: "Solid Color Background",
 
 	// Sponsor Page

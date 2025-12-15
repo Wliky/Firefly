@@ -1,5 +1,5 @@
 
-<img src="./images/1131.png" width = "405" height = "511" alt="NapCat" align=right />
+<img src="./images/1131.png" width = "405" height = "511" alt="Firefly" align=right />
 
 <div align="center">
 
@@ -8,7 +8,8 @@
 > 
 > ![Node.js >= 20](https://img.shields.io/badge/node.js-%3E%3D20-brightgreen) 
 ![pnpm >= 9](https://img.shields.io/badge/pnpm-%3E%3D9-blue)
-![Astro](https://img.shields.io/badge/Astro-5.16.3-orange)
+![Astro](https://img.shields.io/badge/Astro-5.16.5-orange)
+![GitHub License](https://img.shields.io/github/license/CuteLeaf/Firefly)
 </div>
 
 
@@ -93,7 +94,6 @@
 ## 📝 予定...
 
 - [ ] **Live2Dマスコットのリファクタリング**
-- [ ] **グリッドレイアウトの記事カバーの最適化**
 - [ ] **アニメーションの滑らかさの継続的な最適化**
 - [ ] より多くの機能が継続的に改善中...
 
@@ -236,6 +236,10 @@ lang: zh-CN      # 記事の言語が`siteConfig.ts`のサイト言語と異な�
 - Bilibili UP主[公公的日常](https://space.bilibili.com/3546750017080050)が提供するQ版`蛍`マスコットスライスデータモデルを使用
 - アイコンは[Iconify](https://iconify.design/)から
 - 蛍関連の画像素材の著作権はゲーム[「崩壊：スターレイル」](https://sr.mihoyo.com/)の開発元[miHoYo](https://www.mihoyo.com/)に帰属します。
+
+## 📝 ライセンス
+
+本プロジェクトは [MIT license](https://mit-license.org/) の下で公開されています。詳細は [LICENSE](../LICENSE) ファイルをご覧ください。[saicaca/fuwari](https://github.com/saicaca/fuwari) からフォークされました。原作者の貢献に感謝します。元のプロジェクトも [MIT license](https://mit-license.org/) を採用しています。
 
 ## 🍀 貢献者
 
