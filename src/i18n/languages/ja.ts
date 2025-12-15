@@ -63,11 +63,17 @@ export const ja: Translation = {
 	[Key.bangumiFilterWish]: "見たい",
 	[Key.bangumiFilterOnHold]: "保留",
 	[Key.bangumiFilterDropped]: "中断",
+	[Key.bangumiFilterGamePlayed]: "プレイ済み",
+	[Key.bangumiFilterGamePlaying]: "プレイ中",
+	[Key.bangumiFilterGameWish]: "プレイしたい",
 	[Key.bangumiStatusWish]: "見たい",
 	[Key.bangumiStatusWatched]: "見た",
 	[Key.bangumiStatusWatching]: "視聴中",
 	[Key.bangumiStatusOnHold]: "保留",
 	[Key.bangumiStatusDropped]: "中断",
+	[Key.bangumiStatusGameWish]: "プレイしたい",
+	[Key.bangumiStatusGamePlayed]: "プレイ済み",
+	[Key.bangumiStatusGamePlaying]: "プレイ中",
 	[Key.bangumiStatusUnknown]: "不明",
 	[Key.bangumiNoData]: "データなし",
 	[Key.bangumiNoDataDescription]: "このカテゴリに項目がありません",
@@ -156,7 +162,7 @@ export const ja: Translation = {
 	// 壁紙モード
 	[Key.wallpaperMode]: "壁紙モード",
 	[Key.wallpaperBannerMode]: "バナー壁紙",
-	[Key.wallpaperOverlayMode]: "全画面壁紙",
+	[Key.wallpaperOverlayMode]: "透明",
 	[Key.wallpaperNoneMode]: "単色背景",
 
 	// スポンサーページ
