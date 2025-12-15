@@ -1,13 +1,11 @@
 ---
-import { commentConfig } from "@/config";
+import { commentConfig } from '@/config'
 
 if (!commentConfig || !commentConfig.giscus) {
-	throw new Error("Giscus comments are not configured");
+  throw new Error('Giscus comments are not configured')
 }
 
-const giscus = commentConfig.giscus;
-const lightTheme = "light";
-const darkTheme = "dark";
+const giscus = commentConfig.giscus
 ---
 
 <script is:inline type="module" src="https://esm.sh/giscus"></script>
@@ -27,37 +25,7 @@ const darkTheme = "dark";
   reactionsEnabled={giscus.reactionsEnabled}
   emitMetadata={giscus.emitMetadata}
   inputPosition={giscus.inputPosition}
-  theme={lightTheme}
+  theme={giscus.theme}
   lang={giscus.lang}
   loading={giscus.loading}
 />
-
-<script is:inline define:vars={{ lightTheme, darkTheme }}>
-  function updateGiscusTheme() {
-    const isDark = document.documentElement.classList.contains('dark');
-    const theme = isDark ? darkTheme : lightTheme;
-    const widget = document.querySelector('giscus-widget');
-    if (widget) {
-      widget.setAttribute('theme', theme);
-    }
-  }
-
-  // Initial update
-  updateGiscusTheme();
-
-  // Clean up previous observer if exists
-  if (window.giscusThemeObserver) {
-    window.giscusThemeObserver.disconnect();
-  }
-
-  // Create new observer
-  window.giscusThemeObserver = new MutationObserver((mutations) => {
-    mutations.forEach((mutation) => {
-      if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
-        updateGiscusTheme();
-      }
-    });
-  });
-
-  window.giscusThemeObserver.observe(document.documentElement, { attributes: true });
-</script>
