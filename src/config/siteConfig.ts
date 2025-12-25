@@ -32,7 +32,7 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		// 留空以使用默认 favicon
 		{
-			src: "/assets/images/favicon.ico", // 图标文件路径
+			src: "https://avatars.githubusercontent.com/u/63444769?v=4", // 图标文件路径
 			theme: "light", // 可选，指定主题 'light' | 'dark'
 			sizes: "32x32", // 可选，图标大小
 		},
@@ -44,11 +44,11 @@ export const siteConfig: SiteConfig = {
 	// { type: "image", value: "/assets/images/logo.webp", alt: "Firefly Logo" }
 	// { type: "image", value: "https://example.com/logo.png", alt: "Firefly Logo" }
 	navbarLogo: {
-		type: "image",
-		value: "/assets/images/LiuYingPure3.svg",
-		alt: "🍀",
+        type: "icon",
+        value: "fa6-solid:paw",
+        alt: "Blog",
 	},
-	navbarTitle: "Firefly", // 导航栏标题，可以设置为与 title 不同的值，如果不设置则使用 title
+	navbarTitle: "Wliky", // 导航栏标题，可以设置为与 title 不同的值，如果不设置则使用 title
 	navbarWidthFull: false, // 全宽导航栏，导航栏是否占满屏幕宽度，true：占满，false：不占满
 
 	// 站点开始日期，用于统计运行天数
@@ -106,9 +106,9 @@ export const siteConfig: SiteConfig = {
 		// 背景图片配置
 		src: {
 			// 桌面背景图片
-			desktop: "/assets/images/d1.webp",
+			desktop: "https://t.alcy.cc/ai",
 			// 移动背景图片
-			mobile: "/assets/images/m3.webp",
+			mobile: "https://t.alcy.cc/ai",
 		},
 
 		// Banner模式特有配置
@@ -122,7 +122,7 @@ export const siteConfig: SiteConfig = {
 				// 主页显示自定义文本（全局开关）
 				enable: true,
 				// 主页横幅主标题
-				title: "Lovely firefly!",
+				title: "Wliky Blog!",
 				// 主页横幅副标题
 				subtitle: [
 					"In Reddened Chrysalis, I Once Rest",
@@ -147,12 +147,12 @@ export const siteConfig: SiteConfig = {
 					mobile: true, // 移动端显示横幅图片来源文本
 				},
 				text: {
-					desktop: "Pixiv - 晚晚喵", // 桌面端要显示的来源文本
-					mobile: "Pixiv - KiraraShss", // 移动端要显示的来源文本
+					desktop: "栗次元API - 举个栗子", // 桌面端要显示的来源文本
+					mobile: "栗次元API - 举个栗子", // 移动端要显示的来源文本
 				},
 				url: {
-					desktop: "https://www.pixiv.net/artworks/135490046", // 桌面端原始艺术品或艺术家页面的 URL 链接
-					mobile: "https://www.pixiv.net/users/42715864", // 移动端原始艺术品或艺术家页面的 URL 链接
+					desktop: "https://t.alcy.cc/", // 桌面端原始艺术品或艺术家页面的 URL 链接
+					mobile: "https://t.alcy.cc/", // 移动端原始艺术品或艺术家页面的 URL 链接
 				},
 			},
 			navbar: {

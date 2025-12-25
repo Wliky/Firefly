@@ -2,7 +2,7 @@ import type { ProfileConfig } from "../types/config";
 
 export const profileConfig: ProfileConfig = {
 	// 头像
-	avatar: "/assets/images/avatar.webp",
+	avatar: "https://avatars.githubusercontent.com/u/63444769?v=4",
 	// 名字
 	name: "Wliky",
 	// 个人签名
@@ -16,23 +16,12 @@ export const profileConfig: ProfileConfig = {
 	// showName: true 时显示图标和名称，false 时只显示图标
 	links: [
 		{
-			name: "Bilibli",
-			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/38932988",
-			showName: false,
-		},
-		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/CuteLeaf",
+			url: "https://github.com/Wliky",
 			showName: false,
 		},
-		{
-			name: "Email",
-			icon: "fa6-solid:envelope",
-			url: "mailto:xiaye@msn.com",
-			showName: false,
-		},
+
 		{
 			name: "RSS",
 			icon: "fa6-solid:rss",
