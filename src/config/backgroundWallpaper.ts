@@ -25,6 +25,8 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			enable: true,
 			// 主页横幅主标题
 			title: "Lovely firefly!",
+			// 主页横幅主标题字体大小
+			titleSize: "3.8rem",
 			// 主页横幅副标题
 			subtitle: [
 				"In Reddened Chrysalis, I Once Rest",
@@ -34,11 +36,13 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				"From Undreamt Night, I Thence Shine",
 				"In Finalized Morrow, I Full Bloom",
 			],
+			// 主页横幅副标题字体大小
+			subtitleSize: "1.5rem",
 			typewriter: {
 				// 是否启用打字机效果
 				// 打字机开启 → 循环显示所有副标题
 				// 打字机关闭 → 每次刷新随机显示一条副标题
-				enable: false,
+				enable: true,
 				// 打字速度（毫秒）
 				speed: 100,
 				// 删除速度（毫秒）
@@ -80,17 +84,6 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				desktop: true,
 				// 移动端是否启用波浪动画效果
 				mobile: true,
-			},
-			performance: {
-				// 性能优化说明：
-				// quality: "high" - 最佳视觉效果，但GPU占用较高，适合高性能设备
-				// quality: "medium" - 平衡性能和质量，适合中等性能设备
-				// quality: "low" - 最低GPU占用，动画更简单，适合低性能设备
-				// hardwareAcceleration: true - 启用GPU加速，提升性能但增加GPU占用
-				// hardwareAcceleration: false - 禁用GPU加速，降低GPU占用但可能影响性能
-				quality: "high",
-				// 是否启用硬件加速
-				hardwareAcceleration: true,
 			},
 		},
 	},
