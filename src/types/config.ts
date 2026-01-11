@@ -22,11 +22,22 @@ export type SiteConfig = {
 		defaultMode?: LIGHT_DARK_MODE; // 默认模式：浅色、深色或跟随系统
 	};
 
+	// 卡片样式配置
+	card: {
+		// 是否开启卡片边框和阴影立体效果
+		border: boolean;
+	};
+
 	// 字体配置
 	font: FontConfig;
 
 	// 站点开始日期，用于计算运行天数
 	siteStartDate?: string; // 格式: "YYYY-MM-DD"
+
+	// 提醒框配置
+	rehypeCallouts: {
+		theme: "github" | "obsidian" | "vitepress";
+	};
 
 	// 添加bangumi配置
 	bangumi?: {
