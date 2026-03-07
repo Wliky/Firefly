@@ -69,7 +69,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
             },
             {
                 name: "OpenList",
-                url: "https://list.005201.xyz",
+                url: "https://cloud.005201.xyz",
                 external: true,
             },
 
@@ -88,6 +88,12 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
             {
                 name: "PanSou",
                 url: "https://so.005201.xyz",
+                external: true,
+            },
+
+            {
+                name: "Emby Proxy",
+                url: "https://emby.005201.xyz",
                 external: true,
             },
 		],
