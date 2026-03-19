@@ -81,11 +81,15 @@ export const siteConfig: SiteConfig = {
 		// 导航栏标题
 		title: "Blog",
 		// 全宽导航栏，导航栏是否占满屏幕宽度，true：占满，false：不占满
+		title: "Wliky",
+		// 全宽导航栏，导航栏是否占满屏幕宽度
 		widthFull: false,
 		// 导航菜单对齐方式，left：左对齐，center：居中
 		menuAlign: "center",
 		// 导航栏图标和标题是否跟随主题色
 		followTheme: false,
+		// 导航栏是否固定在顶部并始终可见
+		stickyNavbar: true,
 	},
 
 	// 站点开始日期，用于统计运行天数
@@ -126,6 +130,8 @@ export const siteConfig: SiteConfig = {
 	// 页面开关配置 - 控制特定页面的访问权限，设为false会返回404
 	// bangumi的数据为编译时获取的，所以不是实时数据，请配置bangumi.userId
 	pages: {
+		// 友链页面开关
+		friends: true,
 		// 赞助页面开关
 		sponsor: false,
 		// 留言板页面开关，需要配置评论系统
@@ -166,6 +172,28 @@ export const siteConfig: SiteConfig = {
 		googleAnalyticsId: "",
 		// Microsoft Clarity ID
 		microsoftClarityId: "",
+		// Umami 统计配置
+		umamiAnalytics: {
+			// Umami Website ID
+			websiteId: "",
+			// Umami JS地址，支持使用自建
+			scriptUrl: "https://cloud.umami.is/script.js",
+		},
+		// 51la 统计配置
+		la51Analytics: {
+			// 51la 统计 ID
+			Id: "",
+			// 自定义 SDK JS 地址，防止 DNS 污染，留空使用默认地址
+			sdkUrl: "",
+			// 多个统计 ID 的数据分离标识，留空则使用 Id
+			ck: "",
+			// 是否开启事件分析功能
+			autoTrack: false,
+			//  Hash路由模式, 项目使用History API路由, 所以不必开启默认false
+			hashMode: false,
+			// 是否开启网站录屏功能
+			screenRecord: true,
+		},
 	},
 
 	// 图像优化及响应式配置
