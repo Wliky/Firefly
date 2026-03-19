@@ -81,8 +81,6 @@ export const siteConfig: SiteConfig = {
 		// 导航栏标题
 		title: "Blog",
 		// 全宽导航栏，导航栏是否占满屏幕宽度，true：占满，false：不占满
-		title: "Wliky",
-		// 全宽导航栏，导航栏是否占满屏幕宽度
 		widthFull: false,
 		// 导航菜单对齐方式，left：左对齐，center：居中
 		menuAlign: "center",
