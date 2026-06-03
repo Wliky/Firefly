@@ -13,6 +13,8 @@ enum I18nKey {
 
 	tags = "tags",
 	categories = "categories",
+	allCategories = "allCategories",
+	allTags = "allTags",
 	recentPosts = "recentPosts",
 	postList = "postList",
 	tableOfContents = "tableOfContents",
@@ -77,6 +79,8 @@ enum I18nKey {
 	license = "license",
 	friends = "friends",
 	friendsDescription = "friendsDescription",
+	searchFriends = "searchFriends",
+	friendsEmpty = "friendsEmpty",
 	guestbook = "guestbook",
 	guestbookDescription = "guestbookDescription",
 	bangumi = "bangumi",
@@ -126,6 +130,10 @@ enum I18nKey {
 	bangumiCurrentPage = "bangumiCurrentPage",
 	bangumiTotalPages = "bangumiTotalPages",
 	bangumiPage = "bangumiPage",
+
+	// 番组错误
+	bangumiFetchError = "bangumiFetchError",
+	bangumiFetchErrorDesc = "bangumiFetchErrorDesc",
 
 	// 番组分类
 	bangumiCategoryBook = "bangumiCategoryBook",
@@ -300,6 +308,7 @@ enum I18nKey {
 	galleryAlbums = "galleryAlbums",
 	galleryNoAlbums = "galleryNoAlbums",
 	galleryBackToAlbums = "galleryBackToAlbums",
+	searchAlbums = "searchAlbums",
 
 	// 密码保护
 	passwordProtected = "passwordProtected",
