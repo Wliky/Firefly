@@ -56,7 +56,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// playerUrl: "/assets/videos/firefly.mp4",
 		playerUrl: [
             //凡人修仙传
-            "https://jx.ouo.chat/bl/?url=BV1n5jt6sENA&p=1",
+            "https://jx.ouo.chat/bl/?url=BV1sNjt6hEhJ&p=1",
             //学姐圆
             "https://jx.ouo.chat/bl/?url=BV1GN41147fC&p=1",
             "https://jx.ouo.chat/bl/?url=BV1dwxCzcE4H&p=1",
