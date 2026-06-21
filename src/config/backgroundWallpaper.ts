@@ -55,7 +55,12 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 支持远程视频URL，本地视频请放在 public/assets/videos/ 目录下
 		// playerUrl: "/assets/videos/firefly.mp4",
 		playerUrl: [
-			"https://www.image2url.com/r2/default/videos/1781765166391-f2ba6648-1597-40e0-9f0a-6768ae39e574.mp4",
+            "https://jx.ouo.chat/bl/?url=BV1GN41147fC&p=1",
+            "https://jx.ouo.chat/bl/?url=BV1dwxCzcE4H&p=1",
+			"https://jx.ouo.chat/bl/?url=BV1Mx4y1Y7pJ&p=1",
+            "https://jx.ouo.chat/bl/?url=BV1Xj411P7n1&p=1",
+            "https://jx.ouo.chat/bl/?url=BV1xV41167qm&p=1",
+            "https://jx.ouo.chat/bl/?url=BV1DRt2zuEbU&p=1"
 		],
 	},
 	// 横幅壁纸和全屏壁纸共享配置
