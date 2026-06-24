@@ -50,11 +50,11 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	local: {
 		playlist: [
 			{
-				name: "晴天",
-				artist: "晴天 / 周杰伦 / Jay",
-				url: "/assets/music/晴天 - 周杰伦.flac",
-				cover: "/assets/music/cover/晴天.png",
-				lrc: "",
+                name: "使一颗心免于哀伤",
+                artist: "知更鸟 / HOYO-MiX / Chevy",
+                url: "/assets/music/使一颗心免于哀伤-哼唱.mp3",
+                cover: "/assets/music/cover/109951169585655912.webp",
+                lrc: "",
 			},
 		],
 	},
