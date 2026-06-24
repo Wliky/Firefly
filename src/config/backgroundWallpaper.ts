@@ -142,15 +142,6 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 支持所有CSS object-position值，如: 'top', 'center', 'bottom', 'left top', 'right bottom', '25% 75%', '10px 20px'..
 		// 如果不知道怎么配置百分百之类的配置，推荐直接使用：'center'居中，'top'顶部居中，'bottom' 底部居中，'left'左侧居中，'right'右侧居中
 		position: "0% 20%",
-		// 横幅图片轮播配置，仅在当配置多张图片时生效
-		carousel: {
-			// 是否启用横幅图片轮播；关闭时保持每次刷新随机显示一张
-			enable: true,
-			// 轮播切换间隔（毫秒）
-			interval: 6000,
-			// 是否允许用户通过控制面板切换横幅轮播
-			switchable: true,
-		},
 	},
 	// 全屏透明覆盖模式特有配置
 	overlay: {
