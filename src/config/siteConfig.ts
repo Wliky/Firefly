@@ -47,12 +47,13 @@ export const siteConfig: SiteConfig = {
 	// 网站Card样式配置
 	card: {
 		// 是否开启卡片边框和阴影，开启后让网站更有立体感
-		border: true,
+		border: false,
 		// 是否让卡片风格跟随主题色相
 		followTheme: false,
 	},
 
 	// Favicon 配置
+	// 如果启用了OpenGraph图片功能，数组中需要包含png格式的favicon图标
 	favicon: [
 		{
 			// 图标文件路径
@@ -110,6 +111,8 @@ export const siteConfig: SiteConfig = {
 		gallery: false,
 		// 追番页面开关
 		anime: true,
+		// 动态页面开关
+		dynamic: true,
 	},
 
 	// 分类导航栏开关，在首页和归档页顶部显示分类快捷导航
