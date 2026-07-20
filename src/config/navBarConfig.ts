@@ -95,7 +95,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				icon: "fa7-brands:github",
 			},
             {
-                name: "开往",
+                name: "Go",
                 url: "https://www.travellings.cn/go",
                 external: true,
                 icon: "fa7-brands:telegram",
