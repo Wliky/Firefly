@@ -51,12 +51,14 @@ export const booknavConfig: BooknavGroup[] = [
 			{
 				title: "CloudFlare",
 				url: "https://dash.cloudflare.com",
+                icon: "https://dash.cloudflare.com/favicon.ico",
 				desc: "边缘网络基础设施",
 				weight: 8,
 			},
             {
                 title: "Vercel",
                 url: "https://vercel.com",
+                icon: "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/favicon.ico",
                 desc: "前端应用托管平台",
                 weight: 7,
             },
@@ -157,7 +159,7 @@ export const booknavConfig: BooknavGroup[] = [
 			{
 				title: "Linux.do",
 				url: "https://linux.do",
-				desc: "Firefly 主题模板文档",
+				desc: "新的理想型社区",
 				icon: "https://www.google.com/s2/favicons?domain=linux.do&sz=32",
 				weight: 10,
 			},
