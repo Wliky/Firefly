@@ -159,10 +159,17 @@ export const booknavConfig: BooknavGroup[] = [
 			{
 				title: "Linux.do",
 				url: "https://linux.do",
+                icon: "https://www.google.com/s2/favicons?domain=linux.do&sz=32",
 				desc: "新的理想型社区",
-				icon: "https://www.google.com/s2/favicons?domain=linux.do&sz=32",
 				weight: 10,
 			},
+            {
+                title: "NodeSeek",
+                url: "https://www.nodeseek.com/",
+                icon: "https://www.google.com/s2/favicons?domain=www.nodeseek.com&sz=32",
+                desc: "传递行业新闻 分享技术心得",
+                weight: 9,
+            },
 		],
 	},
 ];
