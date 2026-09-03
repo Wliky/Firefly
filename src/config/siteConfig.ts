@@ -50,7 +50,7 @@ export const siteConfig: SiteConfig = {
 
 	// 站点描述
 	description:
-		"Hello,welcome to my Blog！",
+		"Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。",
 
 	// 站点关键词
 	keywords: [
@@ -122,8 +122,11 @@ export const siteConfig: SiteConfig = {
 		menuAlign: "center",
 		// 导航栏图标和标题是否跟随主题色
 		followTheme: true,
-		// 导航栏是否固定在顶部并始终可见
-		stickyNavbar: true,
+		// 导航栏模式navbarMode：
+		// "static"：不固定，随页面滚动消失
+		// "fixed"：固定在顶部常显
+		// "dynamic"：固定在顶部，下滑隐藏、轻微上滑显示
+		navbarMode: "dynamic",
 	},
 
 	// 站点开始日期，用于统计运行天数
@@ -144,7 +147,8 @@ export const siteConfig: SiteConfig = {
 	categoryStyle: "rectangle",
 
 	// 标签样式，作用于文章列表底部标签、标签页和侧边栏标签
-	// "pill"：胶囊，中性灰底圆角
+	// "pill"：胶囊，主题色底圆角
+	// "pill-gray"：胶囊，中性灰底圆角
 	// "rectangle"：矩形，主题色底小圆角
 	tagStyle: "pill",
 
@@ -233,7 +237,19 @@ export const siteConfig: SiteConfig = {
 		// 是否开启分享海报生成功能
 		sharePoster: true,
 		// OpenGraph图片功能，注意开启后要渲染很长时间，不建议本地调试的时候开启
-		generateOgImages: false,
+		generateOgImages: true,
+
+		// 沉浸阅读配置：文章详情页右下角按钮，进入后只留文章卡片+左侧目录
+		immersiveReading: {
+			// 总开关：false 则不显示按钮
+			enable: true,
+			// 进入文章页是否默认开启沉浸阅读
+			defaultOn: false,
+			// 沉浸阅读中是否显示目录栏
+			tocEnabled: true,
+			// 目录栏位置："left" | "right"
+			tocPosition: "left",
+		},
 	},
 
 	// ── Bilibili配置 ──────────────────────────────────
@@ -251,9 +267,9 @@ export const siteConfig: SiteConfig = {
 		// dynamic 模式在浏览器中实时请求 API，始终显示最新数据
 		mode: "dynamic",
 		// Bangumi API 地址
-		apiUrl: "https://bgmapi.anibt.net",
+		apiUrl: "https://api.bangumi.pro",
 		// 详情页地址
-		subjectBaseUrl: "https://bgmmi.anibt.net/subject/",
+		subjectBaseUrl: "https://api.bangumi.pro/subject/",
 		// 条目类型排序，数组中的类型将按顺序优先展示
 		// 可选值: "anime" | "book" | "music" | "game" | "real" (暂不支持"real"类型)
 		// 未列出的类型将按默认顺序排在后面
@@ -262,6 +278,8 @@ export const siteConfig: SiteConfig = {
 		// categories: {
 		// 	game: false, // 禁用游戏分类显示
 		// },
+		// NSFW 处理："off" 不过滤 | "blur" 仅模糊封面 | "hide" 隐藏条目
+		nsfw: "hide",
 	},
 
 	// ── VNDB配置 ──────────────────────────────────
@@ -280,8 +298,8 @@ export const siteConfig: SiteConfig = {
 		vnBaseUrl: "https://vndb.org/",
 		// 私密列表访问令牌，仅 static 模式下使用；不要把真实令牌提交到公开仓库！
 		apiToken: "",
-		// 对Nsfw的游戏封面模糊化
-		blurNsfw: true,
+		// NSFW 处理："off" 不过滤 | "blur" 仅模糊封面 | "hide" 隐藏条目
+		nsfw: "hide",
 	},
 
 	// ── MyAnimeList配置 ──────────────────────────────────
@@ -296,6 +314,8 @@ export const siteConfig: SiteConfig = {
 		animeBaseUrl: "https://myanimelist.net/anime/",
 		// 漫画条目详情页地址，末尾需要带 /
 		mangaBaseUrl: "https://myanimelist.net/manga/",
+		// NSFW 处理："off" 不过滤 | "blur" 仅模糊封面 | "hide" 隐藏条目
+		nsfw: "hide",
 	},
 
 	// ── 图像优化配置 ──────────────────────────────────
